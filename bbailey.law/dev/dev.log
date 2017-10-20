@@ -1,0 +1,13 @@
+2017/10/10 19:13:57 INFO  : sftp://root@dev.bbailey.law:22//home/www/bbailey.law/dev: Modify window is 1s
+2017/10/10 19:13:59 INFO  : dev.log: Copied (replaced existing)
+2017/10/10 19:13:59 INFO  : attorney-profile: Copied (replaced existing)
+2017/10/10 19:14:01 INFO  : sftp://root@dev.bbailey.law:22//home/www/bbailey.law/dev: Waiting for checks to finish
+2017/10/10 19:14:01 INFO  : sftp://root@dev.bbailey.law:22//home/www/bbailey.law/dev: Waiting for transfers to finish
+2017/10/10 19:14:01 INFO  : Waiting for deletions to finish
+2017/10/10 19:14:01 INFO  : 
+Transferred:   17.112 kBytes (3.008 kBytes/s)
+Errors:                 0
+Checks:               101
+Transferred:            2
+Elapsed time:        5.6s
+
