@@ -1,0 +1,44 @@
+# ipme
+
+ip address looker uppper
+
+## Sample
+```bash
+$ ipme
+```
+```bash
+  Public IP: 192.30.253.112
+  Private IP: 10.0.0.108
+    ♡ ipme
+```
+
+## Try It
+
+```bash
+wget -q -O - file.efmeeks.net/ipme/master/ipme.sh | bash
+```
+
+> Piping to the shell can be dangerous. It's always a good idea to check the [source code](#Source) first.
+
+## Get it
+```bash
+wget -q -O ipme.sh file.efmeeks.net/ipme/master/ipme.sh
+```
+
+## <a name="Source">Source</a>
+
+```bash
+#!/bin/bash
+
+# ipme: ip address looker upper
+# https://git.efmeeks.net/ipme
+
+ipme() {
+  echo ''; echo "  Public IP: $(wget -q -O - http://ipecho.net/plain)"
+  echo "  Private IP: $(ifconfig | egrep 'inet' | egrep -v 'inet6|127' | awk '{ print $2 }')"
+  echo -e "\x20 \x20 \xE2\x99\xA1 ipme"; echo ''
+}
+
+ipme
+
+```
