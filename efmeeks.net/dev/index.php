@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
   <head>
     <title>ipme - efmeeks.net</title>
@@ -22,4 +21,3 @@
     ?>
   </body>
 </html>
-  
